@@ -1,0 +1,29 @@
+#logo {
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    /* font-weight: bold; */
+    padding: 0.5rem 1rem;
+    transition: 1s all;
+}
+
+#logo:hover {
+    color: deepskyblue;
+}
+
+#links {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    transition: 1s all;
+}
+
+#links:hover {
+    color: rgb(150, 177, 177);
+}
+
+footer {
+    background-color: rgb(241, 169, 37);
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding-top: 2.5rem;
+}
