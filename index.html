@@ -1,6 +1,13 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- These are the google fonts link -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
@@ -14,8 +21,8 @@
                 border-top-left-radius: 10%;
                 border-bottom-right-radius: 10%;
                 border: 2px solid aqua;
-                height: 33rem;
-                width: 40rem; /* 36rem */
+                height: 31rem;
+                width: 33rem; /* 36rem */
                 margin-left: 5rem;
             }
 
@@ -30,6 +37,61 @@
                 background-color: rgb(255, 203, 105);
                 padding-top: 1rem;
                 padding-bottom: 1rem;
+            }
+
+            @media screen and (max-width: 667px) {
+                img {
+                    margin-left: 0;
+                    height: 15rem;
+                    width: 16.5rem;
+                }
+
+                .pic {
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+
+            @media screen and (max-width: 1180px) {
+                img {
+                    margin-left: 0;
+                    height: 22.8rem;
+                    width: 24.3rem;
+                }
+            }
+
+            @media screen and (max-width: 1024px) {
+                img {
+                    height: 21rem;
+                    width: 22rem;
+                }
+            }
+
+            @media screen and (max-width: 1368px) {
+                img {
+                    margin-left: 0;
+                    height: 23rem;
+                    width: 25rem;
+                }
+
+                .pic {
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+
+            @media screen and (max-width: 653px) {
+                img {
+                    height: 15rem;
+                    width: 16.5rem;
+                }
+            }
+
+            @media screen and (max-width: 1366px) {
+                img {
+                    height: 31rem;
+                    width: 34rem;
+                }
             }
         </style>
     </head>

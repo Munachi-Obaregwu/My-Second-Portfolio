@@ -3,13 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Start of Bootstrap 4.6 links -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- End of Bootstrap 4.6 links -->
+
+    <!-- Start of Bootstrap's icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- End of Bootstrap's icons CDN -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Munachi | Contacts</title>
+    <style>
+        #contact_row {
+            height: 54.6vh;
+        }
+
+        .contacth4 {
+            font-family: "Roboto";
+            font-weight: 800;
+            font-size: 2.5rem;
+            text-align: center;
+            transition: 2s all;
+        }
+
+        .contacth4:hover  {
+            color: dodgerblue;
+        }
+
+        #social_links > a {
+            margin-right: 2rem;
+        }
+
+        input {
+            margin-bottom: 1rem;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -54,8 +87,42 @@
             </div>
         </nav>
     </header>
+    <br>
     <main>
+        <div class="container">
+            <h4 class="contacth4">Contact Me</h4>
+            <br>
+            <div class="row" id="contact_row">
+                <div class="col">
+                    <p><i class="bi bi-house-door"></i> No. 8 Onyeke Street, Nsukka</p>
 
+                    <p><i class="bi bi-telephone-fill"></i> 08012345678</p>
+
+                    <p><i class="bi bi-envelope-at-fill"></i> mdobaregwu@gmail.com</p>
+                    <hr>
+
+                    <div id="social_links">
+                        <a href="https://www.facebook.com/Munachi3413" target="_blank"><i class="bi bi-facebook"></i>My FaceBook Account</a>
+                        <a href="https://www.github.com/Munachi-Obaregwu" target="_blank"><i class="bi bi-github"></i>Munachi-Obaregwu</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <p>Send Me a Message</p>
+                    <form action="">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" placeholder="Your name">
+                        <br>
+
+                        <label for="email">Email</label>
+                        <input type="email" name="email" placeholder="Your name">
+                        <br>
+
+                        <label for="message">Your Message:</label><br>
+                        <textarea name="message" cols="30" rows="6"></textarea>
+                    </form>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <p>&copy; Designed by Munachi</p>
